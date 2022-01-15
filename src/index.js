@@ -1,4 +1,5 @@
 import ReactDOM from "react-dom";
+import React  from "react";
 const page=(
    <nav>
          <h1>Prabesh</h1>
