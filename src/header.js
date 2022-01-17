@@ -16,3 +16,4 @@ export default function Header(){
             </div>);
     }
 
+// export default Header
