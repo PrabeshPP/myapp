@@ -17,55 +17,33 @@ header{
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
 
+}
+.div1{
+    display: flex;
+    align-items: center;
 }
 .nav img{
     width: 40px;
 }
-
-.navBar{
-    list-style: none;
-    display: flex;   
-    
-
+.nav h3{
+    color: skyblue;
+    font-family: 'Inter', sans-serif;
 }
 
-.navBar> li{
-    font-size: 20px;
-    font-weight: bold;
-padding-right: 10px;
-cursor: pointer;
-
-
-}
-
-.navBar li a{
-    text-decoration: none;
-}
-
-a:hover{
-    color: crimson;
-}
-
-
-
-
-
-
-.footer{
-    background-color: rgb(34, 33, 33);
-    height: 50px;
-    width: 100%;
-    position:absolute;
-    bottom: 0px;
-   
-}
-
-.footer footer{
-    
+.nav h4{
     color: white;
-    position: absolute;
-    top: 25%;
-
+    font-family: 'Inter', sans-serif;
+    padding-right: 10px;
 }
+
+
+
+
+
+
+
+
+
+
