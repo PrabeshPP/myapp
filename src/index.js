@@ -3,20 +3,14 @@ import reactDom  from "react-dom";
 import "./index.css"
 import Header from "./header";
 import MainComponent from "./mainComponent";
+import Footer from "./footer";
 
 
 
-function Footer(){
-    return(
-    <div className="footer">
-        <footer>@ Bista development.All right reserved.</footer>
-    </div>
-    )
-}
 
 function CustomPage(){
     return(
-        <div >
+        <div className="mainDIV" >
     <Header/>
     <MainComponent/>
     <Footer/>

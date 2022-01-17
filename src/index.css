@@ -2,6 +2,11 @@
     margin: 0%;
 }
 
+
+.main{
+    background-color: rgb(27, 34, 34);
+}
+
 header{
     box-shadow: 20px;
    box-shadow: 0px 5px  20px grey;
@@ -42,6 +47,8 @@ cursor: pointer;
 a:hover{
     color: crimson;
 }
+
+
 
 
 
