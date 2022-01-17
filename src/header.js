@@ -1,6 +1,7 @@
 import React from "react";
 
-function Header(){
+// Header Component
+export default function Header(){
     return(<div className="main">
             <header>
                 <nav className="nav">
@@ -14,3 +15,4 @@ function Header(){
             </header>
             </div>);
     }
+
