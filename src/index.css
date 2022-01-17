@@ -1,49 +1,71 @@
 *{
-    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    font-family:  'Inter', sans-serif;
+    height: 100vh;
+    background-color: #282D35;
 }
 
 
-.main{
-    background-color: rgb(27, 34, 34);
-}
 
-header{
-    box-shadow: 20px;
-   box-shadow: 0px 5px  20px grey;
-   height: 50px;
-   width: 100%;
-}
-
-.nav{
+nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
 
+nav h3{
+    color: aqua;
+   font-family:  'Inter', sans-serif;
+   font-weight: 700;
+   margin-left:10px;
+   margin-right: auto;
+   font-size: 22px;
 }
-.div1{
-    display: flex;
-    align-items: center;
+
+nav h4{
+    
+    font-family:  'Inter', sans-serif;
+    color: white;
 }
-.nav img{
+
+nav img{
     width: 40px;
 }
-.nav h3{
-    color: skyblue;
-    font-family: 'Inter', sans-serif;
-}
 
-.nav h4{
+main{
+    height: 100vh;
+    padding: 55px 27px;
     color: white;
-    font-family: 'Inter', sans-serif;
-    padding-right: 10px;
+    background-image: url(C:\Users\prabe\OneDrive\Desktop\ReactJS\myapp\public\logo512.png);
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    background-position-y:center ;
+   
 }
 
+main .main--title{
+    margin: 0;
+    font-size: 39px;
+}
 
+.main--facts{
+    margin-top: 39px;
+}
 
+.main--facts{
+    line-height: 19px;
+    padding-block: 10px;
+    
+}
 
-
-
-
-
-
-
+.main--facts li::marker{
+    color: aqua;
+    font-size: 1.4rem;
+}
